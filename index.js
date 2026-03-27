@@ -53,7 +53,7 @@ server.post('/api/giriş', (req, res) => {
 });
 
 // Port Ayarı
-const port = process.env.PORT || 9000;
+const port = process.env.PORT || 3000;
 
 server.listen(port, () => {
   console.log(`Server ${port} portunda canavar gibi çalışıyor...`);
